@@ -1,0 +1,81 @@
+.mdl-layout__header-row {
+  padding: 0 40px 0 60px !important; }
+
+.center-align {
+  text-align: center; }
+
+span {
+  font-weight: 600 !important; }
+
+.motto {
+  text-align: center;
+  margin: 0 16px 24px 16px;
+  font-size: 45px;
+  line-height: 50px;
+  font-family: 'Josefin Sans', 'Roboto', sans-serif !important;
+  font-weight: 300; }
+
+@media (max-width: 640px) {
+  .motto {
+    font-size: 25px;
+    line-height: 30px; } }
+.skills {
+  margin-bottom: 48px; }
+
+.skills .skillTab .mdl-button {
+  height: 40px !important;
+  padding-bottom: 24px;
+  line-height: 20px !important; }
+
+.skills .skillTab .mdl-button:hover {
+  background: none !important; }
+
+.skills .skillTab .mdl-button:active {
+  background: none !important; }
+
+.skills .skillTab .mdl-button:focus {
+  background: none !important; }
+
+@media (max-width: 640px) {
+  .skills .skillTab .mdl-button {
+    font-size: 12px !important;
+    padding: 0px 6px !important;
+    min-width: 0px !important; } }
+@media (max-width: 365px) {
+  .skills .skillTab .mdl-button {
+    font-size: 10px !important;
+    padding: 0px 4px !important; } }
+.skills .mdl-tabs__tab-bar {
+  border: none !important; }
+
+.skills .mdl-tabs__tab {
+  padding: 0 !important; }
+
+.skills .mdl-tabs__panel .skillDescription {
+  padding: 24px 16px 0px 16px !important;
+  margin: auto;
+  font-family: 'Josefin Sans', 'Roboto', sans-serif !important;
+  font-weight: 300;
+  line-height: 26px;
+  font-size: 16px;
+  text-align: justify;
+  max-width: 600px; }
+
+@media (max-width: 650px) {
+  .skills .mdl-tabs__panel .skillDescription {
+    max-width: 380px; } }
+.skills .mdl-tabs__tab.is-active:after {
+  background: none !important; }
+
+.skills .mdl-tabs__tab.is-active .mdl-button {
+  color: #323232 !important; }
+
+.skills .mdl-tabs__tab .mdl-button:hover {
+  color: #505050 !important; }
+
+.skills .mdl-button.knowMore {
+  border-radius: 0px !important;
+  margin-top: 32px !important; }
+
+.skills .mdl-button--raised.knowMore {
+  box-shadow: none !important; }
